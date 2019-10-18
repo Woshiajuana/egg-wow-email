@@ -1,0 +1,87 @@
+{
+  "_from": "egg-wow-email",
+  "_id": "egg-wow-email@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-9f0OyYk4opXb2o0O3ZY1cxFL0Gw=",
+  "_location": "/egg-wow-email",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "egg-wow-email",
+    "name": "egg-wow-email",
+    "escapedName": "egg-wow-email",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/egg-wow-email/egg-wow-email-0.0.1.tgz",
+  "_shasum": "f5fd0ec98938a295dbda8d0edd963573114bd06c",
+  "_spec": "egg-wow-email",
+  "_where": "F:\\wow-egg",
+  "author": {
+    "name": "Ajuan <979703986@qq.com>"
+  },
+  "bugs": {
+    "url": "https://github.com/Woshiajuana/egg-wow-email/issues"
+  },
+  "bundleDependencies": false,
+  "ci": {
+    "version": "6, 7"
+  },
+  "dependencies": {
+    "nodemailer": "^4.0.1"
+  },
+  "deprecated": false,
+  "description": "egg 邮件服务",
+  "devDependencies": {
+    "autod": "^2.8.0",
+    "egg": "^1.3.0",
+    "egg-bin": "^3.3.2",
+    "egg-ci": "^1.6.0",
+    "egg-mock": "^3.6.1",
+    "eslint": "^3.19.0",
+    "eslint-config-egg": "^4.1.0",
+    "supertest": "^3.0.0",
+    "webstorm-disable-index": "^1.1.2"
+  },
+  "eggPlugin": {
+    "name": "email"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "files": [
+    "index.js",
+    "app.js",
+    "agent.js",
+    "config",
+    "app",
+    "lib"
+  ],
+  "homepage": "https://github.com/Woshiajuana/egg-wow-email#readme",
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin"
+  ],
+  "license": "MIT",
+  "name": "egg-wow-email",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Woshiajuana/egg-wow-email.git"
+  },
+  "scripts": {
+    "autod": "autod",
+    "ci": "npm run lint && npm run cov",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test"
+  },
+  "version": "0.0.1"
+}
